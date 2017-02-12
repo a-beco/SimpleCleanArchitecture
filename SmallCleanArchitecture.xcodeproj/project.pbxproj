@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		143A45BC1DFF022F00D5F932 /* SmallCleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallCleanArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		143A45BF1DFF022F00D5F932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		143A45C11DFF022F00D5F932 /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendListViewController.swift; path = Example/FriendListViewController.swift; sourceTree = "<group>"; };
+		143A45C11DFF022F00D5F932 /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
 		143A45C41DFF022F00D5F932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		143A45C61DFF022F00D5F932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		143A45C91DFF022F00D5F932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,9 +31,9 @@
 		143A45DA1DFF048100D5F932 /* FriendListUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListUseCase.swift; sourceTree = "<group>"; };
 		143A45E31DFF071600D5F932 /* UserEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
 		143A45E51DFF07FA00D5F932 /* UserName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserName.swift; sourceTree = "<group>"; };
-		143A45E71DFF0A0D00D5F932 /* UserViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewData.swift; path = ViewData/UserViewData.swift; sourceTree = "<group>"; };
-		143A45EB1DFF0F1200D5F932 /* FriendListRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendListRepository.swift; path = Repository/FriendListRepository.swift; sourceTree = "<group>"; };
-		143A45ED1DFF0F7A00D5F932 /* FriendListDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendListDataType.swift; path = DataType/FriendListDataType.swift; sourceTree = "<group>"; };
+		143A45E71DFF0A0D00D5F932 /* UserViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewData.swift; sourceTree = "<group>"; };
+		143A45EB1DFF0F1200D5F932 /* FriendListRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListRepository.swift; sourceTree = "<group>"; };
+		143A45ED1DFF0F7A00D5F932 /* FriendListDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListDataType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 			children = (
 				143A45C11DFF022F00D5F932 /* FriendListViewController.swift */,
 			);
-			name = FriendList;
+			path = FriendList;
 			sourceTree = "<group>";
 		};
 		143A45DC1DFF058000D5F932 /* UseCase */ = {
@@ -143,7 +143,7 @@
 			children = (
 				143A45EB1DFF0F1200D5F932 /* FriendListRepository.swift */,
 			);
-			name = Repository;
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		143A45E11DFF05CD00D5F932 /* DataType */ = {
@@ -151,7 +151,7 @@
 			children = (
 				143A45ED1DFF0F7A00D5F932 /* FriendListDataType.swift */,
 			);
-			name = DataType;
+			path = DataType;
 			sourceTree = "<group>";
 		};
 		143A45E21DFF05EB00D5F932 /* ViewData */ = {
@@ -159,7 +159,7 @@
 			children = (
 				143A45E71DFF0A0D00D5F932 /* UserViewData.swift */,
 			);
-			name = ViewData;
+			path = ViewData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
